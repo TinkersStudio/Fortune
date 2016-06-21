@@ -13,7 +13,7 @@ marble; then you chip away everything that doesn\'t look like an elephant.</item
         <item>A man paints with his brains and not with his hands.</item>
         <item>A poet who reads his verse in public may have other nasty habits.</item>
     </string-array>
-    <string-array name="cookie">
+    <string-array name="general">
         <item>The one charm of marriage is that it makes a life of deception a necessity.
 		— Oscar Wilde</item>
         <item>"Confound these ancestors.... They've stolen our best ideas!"

@@ -7,6 +7,7 @@
  * //TODO Version 1.1.0 Refine Layout
  * //TODO Version 1.1.5 Increase number of quote (goal 20 for each category)
  * //TODO Version 2.0.0 Make the share on facebook button
+ * //TODO Version 3.0.0 Make the database and migration
  */
 package com.example.owner.fortune;
 
@@ -84,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         myMap.put("cookie", new ArrayList<Quote>());
-        for(String s : res.getStringArray(R.array.cookie)) {
+        for(String s : res.getStringArray(R.array.general)) {
             Log.d(TAG, "Adding new joke" + s);
             quote = new Quote(s);
             myMap.get("cookie").add(quote);
@@ -152,27 +153,71 @@ public class MainActivity extends AppCompatActivity {
      */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        //TODO search component
-        /**
         switch(item.getItemId()){
-            case R.id.submenu_like:
-                applyFilter(Joke.LIKE);
+            case R.id.art:
+                topic = "art";
                 break;
-            case R.id.submenu_dislike:
-                applyFilter(Joke.DISLIKE);
+            case R.id.general:
+                topic = "general";
                 break;
-            case R.id.submenu_show_all:
-                applyFilter(FILTER_SHOW_ALL);
+            case R.id.definitions:
+                topic = "definitions";
                 break;
-            case R.id.submenu_unrated:
-                applyFilter(Joke.UNRATED);
+            case R.id.education:
+                topic = "education";
+                break;
+            case R.id.ethnic:
+                topic = "ethnic";
+                break;
+            case R.id.food:
+                topic = "food";
+                break;
+            case R.id.geeky:
+                topic = "geeky";
+                break;
+            case R.id.humorist:
+                topic = "humorist";
+                break;
+            case R.id.law:
+                topic = "law";
+                break;
+            case R.id.literature:
+                topic = "literature";
+                break;
+            case R.id.love:
+                topic = "love";
+                break;
+            case R.id.kids:
+                topic = "kids";
+                break;
+            case R.id.medicine:
+                topic = "medicine";
+                break;
+            case R.id.pet:
+                topic = "pet";
+                break;
+            case R.id.platitude:
+                topic = "platitude";
+                break;
+            case R.id.politics:
+                topic = "kids";
+                break;
+            case R.id.riddle:
+                topic = "riddle";
+                break;
+            case R.id.sports:
+                topic = "sports";
+                break;
+            case R.id.wisdom:
+                topic = "wisdom";
+                break;
+            case R.id.work:
+                topic = "work";
                 break;
             default:
                 super.onOptionsItemSelected(item);
                 break;
         }
-
-        */
         return true;
     }
 

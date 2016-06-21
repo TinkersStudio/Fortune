@@ -27,7 +27,7 @@
             <item android:id="@+id/platitude" android:title="Platitude"/>
             <item android:id="@+id/politics" android:title="Politics"/>
             <item android:id="@+id/riddle" android:title="Riddle"/>
-            <item android:id="@+id/sport" android:title="Sport"/>
+            <item android:id="@+id/sports" android:title="Sport"/>
             <item android:id="@+id/wisdom" android:title="Wisdom"/>
             <item android:id="@+id/work" android:title="Work"/>
         </menu>
