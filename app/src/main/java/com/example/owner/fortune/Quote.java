@@ -3,7 +3,7 @@ package com.example.owner.fortune;
 import java.util.*;
 
 /**
- * Created by Owner on 6/20/2016.
+ * Created by Dung Trinh on 6/20/2016.
  */
 public class Quote {
     /** The main content of the quote*/

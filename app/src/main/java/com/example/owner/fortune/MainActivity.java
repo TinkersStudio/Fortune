@@ -2,11 +2,17 @@
  * @author: Dung Trinh
  * @version: 1.0.0
  * None support for search keyword (Will support in the future version
+ * //TODO Version 1.0.0 Support quote
+ * //TODO Version 1.0.5 Support menu selection
+ * //TODO Version 1.1.0 Refine Layout
+ * //TODO Version 1.1.5 Increase number of quote (goal 20 for each category)
+ * //TODO Version 2.0.0 Make the share on facebook button
  */
 package com.example.owner.fortune;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -52,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
 
         /**import value into the hashmap*/
         importValue();
+
+        /**Import value into the general list/select list*/
         for (String key:myMap.keySet())
         {
             quoteList.addAll(myMap.get(key));
@@ -66,7 +74,21 @@ public class MainActivity extends AppCompatActivity {
     private void importValue()
     {
 
+        Resources res = this.getResources();
+        Quote quote;
+        myMap.put("art", new ArrayList<Quote>());
+        for(String s : res.getStringArray(R.array.art)) {
+            Log.d(TAG, "Adding new joke" + s);
+            quote = new Quote(s);
+            myMap.get("art").add(quote);
+        }
 
+        myMap.put("cookie", new ArrayList<Quote>());
+        for(String s : res.getStringArray(R.array.cookie)) {
+            Log.d(TAG, "Adding new joke" + s);
+            quote = new Quote(s);
+            myMap.get("cookie").add(quote);
+        }
     }
     /**Init the first component*/
     protected void initLayout() {
@@ -123,8 +145,14 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
+    /**
+     * This will change the global variable topic to set the seach
+     * @param item is select
+     * @return boolean of chosen value
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        //TODO search component
         /**
         switch(item.getItemId()){
             case R.id.submenu_like:

@@ -2,4 +2,31 @@
     <string name="app_name">Fortune</string>
     <string name="default_quote">Keep Calm and Carry On</string>
     <string name="search_topic">Topic</string>
+    <!--quote based on topic-->
+    <string-array name="art">
+        <item>A copy of the universe is not what is required of art; one of the damned
+things is ample. — Rebecca West</item>
+        <item>A critic is a bundle of biases held loosely together by a sense of taste.
+		— Whitney Balliett</item>
+        <item>A fool-proof method for sculpting an elephant: first, get a huge block of
+marble; then you chip away everything that doesn\'t look like an elephant.</item>
+        <item>A man paints with his brains and not with his hands.</item>
+        <item>A poet who reads his verse in public may have other nasty habits.</item>
+    </string-array>
+    <string-array name="cookie">
+        <item>The one charm of marriage is that it makes a life of deception a necessity.
+		— Oscar Wilde</item>
+        <item>"Confound these ancestors.... They've stolen our best ideas!"
+		— Ben Jonson</item>
+        <item>If you are not careful, you\'re going to catch something.</item>
+        <item>Lack of skill dictates economy of style.
+		— Joey Ramone</item>
+        <item>No one is fit to be trusted with power. … No one. ... Any man who has lived
+at all knows the follies and wickedness he\'s capable of. ... And if he does
+know it, he knows also that neither he nor any man ought to be allowed to
+decide a single human fate.
+		— C. P. Snow, The Light and the Dark</item>
+    </string-array>
+
+
 </resources>
