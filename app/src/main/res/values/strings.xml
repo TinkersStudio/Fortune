@@ -12,6 +12,8 @@ things is ample. — Rebecca West</item>
 marble; then you chip away everything that doesn\'t look like an elephant.</item>
         <item>A man paints with his brains and not with his hands.</item>
         <item>A poet who reads his verse in public may have other nasty habits.</item>
+        <item>A true artist will let his wife starve, his children go barefoot, his mother
+drudge for his living at seventy, sooner than work at anything but his art.</item>
     </string-array>
     <string-array name="general">
         <item>The one charm of marriage is that it makes a life of deception a necessity.
@@ -27,8 +29,29 @@ know it, he knows also that neither he nor any man ought to be allowed to
 decide a single human fate.
 		— C. P. Snow, The Light and the Dark</item>
     </string-array>
-    <string-array name="definitions"></string-array>
-    <string-array name="education"></string-array>
+    <string-array name="definitions">
+        <item>It isn't just a good idea, it\'s the law!</item>
+        <item>A weak person who yields to the temptation of denying himself a
+	pleasure. - Ambrose Bierce, "The Devil\'s Dictionary"</item>
+        <item>Academy:A modern school where football is taught.
+Institute: An archaic school where football is not taught.</item>
+        <item>Accuracy, n.: The vice of being right</item>
+        <item>Adult, n.: One old enough to know better.</item>
+    </string-array>
+    <string-array name="education">
+        <item>A fool's brain digests philosophy into folly, science into superstition, and
+art into pedantry.  Hence University education.
+		-- G. B. Shaw</item>
+        <item>A good question is never answered.  It is not a bolt to be tightened
+into place but a seed to be planted and to bear more seed toward the
+hope of greening the landscape of idea.
+		-- John Ciardi</item>
+        <item>A grammarian's life is always in tense.</item>
+        <item>A great many people think they are thinking when they are merely
+rearranging their prejudices.
+		-- William James</item>
+        <item>A pencil with no point needs no eraser.</item>
+    </string-array>
     <string-array name="ethnic"></string-array>
     <string-array name="food"></string-array>
     <string-array name="geeky"></string-array>
