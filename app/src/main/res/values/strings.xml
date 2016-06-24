@@ -27,6 +27,22 @@ know it, he knows also that neither he nor any man ought to be allowed to
 decide a single human fate.
 		— C. P. Snow, The Light and the Dark</item>
     </string-array>
-
+    <string-array name="definitions"></string-array>
+    <string-array name="education"></string-array>
+    <string-array name="ethnic"></string-array>
+    <string-array name="food"></string-array>
+    <string-array name="geeky"></string-array>
+    <string-array name="law"></string-array>
+    <string-array name="literature"></string-array>
+    <string-array name="love"></string-array>
+    <string-array name="kids"></string-array>
+    <string-array name="medicine"></string-array>
+    <string-array name="pet"></string-array>
+    <string-array name="platitude"></string-array>
+    <string-array name="politics"></string-array>
+    <string-array name="riddle"></string-array>
+    <string-array name="sports"></string-array>
+    <string-array name="wisdom"></string-array>
+    <string-array name="work"></string-array>
 
 </resources>

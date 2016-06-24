@@ -72,25 +72,30 @@ public class MainActivity extends AppCompatActivity {
      * Tedious work just to import the value in here
      *
      * */
-    private void importValue()
+    public void importValue()
     {
-
+        //add everything in here
         Resources res = this.getResources();
-        Quote quote;
-        myMap.put("art", new ArrayList<Quote>());
-        for(String s : res.getStringArray(R.array.art)) {
-            Log.d(TAG, "Adding new joke" + s);
-            quote = new Quote(s);
-            myMap.get("art").add(quote);
-        }
+        importValueInMap(res.getStringArray(R.array.art), "art");
+        importValueInMap(res.getStringArray(R.array.general), "general");
+    }
 
-        myMap.put("cookie", new ArrayList<Quote>());
-        for(String s : res.getStringArray(R.array.general)) {
+    /**
+     *
+     * @param list list of quote that is used
+     * @param name the key for map
+     */
+    private void importValueInMap(String[] list, String name) {
+        Quote quote;
+        myMap.put(name, new ArrayList<Quote>());
+
+        for(String s : list) {
             Log.d(TAG, "Adding new joke" + s);
             quote = new Quote(s);
-            myMap.get("cookie").add(quote);
+            myMap.get(name).add(quote);
         }
     }
+
     /**Init the first component*/
     protected void initLayout() {
         setContentView(R.layout.activity_main);
@@ -200,7 +205,7 @@ public class MainActivity extends AppCompatActivity {
                 topic = "platitude";
                 break;
             case R.id.politics:
-                topic = "kids";
+                topic = "politics";
                 break;
             case R.id.riddle:
                 topic = "riddle";
