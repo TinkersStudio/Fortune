@@ -23,31 +23,41 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.*;
 
 public class MainActivity extends AppCompatActivity {
-    /**all of the quote is in here*/
+    /**Contain all the Quote*/
     private ArrayList<Quote>  quoteList;
+
     /**The selected quote base on the topic*/
     private ArrayList<Quote> selectedList;
 
     /**Topic to search from**/
     protected String topic;
 
+    /**Keyword to search for*/
     protected String searchKeyword;
 
-    /**Layout and menu*/
+    /**Generate button to generate fortune*/
     protected Button fortuneButton;
-    protected TextView quoteView;
-    protected Menu mainMenu;
-    private static Map<String, ArrayList<Quote>> myMap;
 
+    /**The quote to display on the screen*/
+    protected TextView quoteView;
+
+    /**Menu with the filter*/
+    protected Menu mainMenu;
+
+    /**Hashmap for quick indexing*/
+    private static Map<String, ArrayList<Quote>> myMap;
+    /**This is used for debugging*/
     private static final String TAG = Activity.class.getName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        /**Initialize layout and listener*/
         initLayout();
         initGenerateListener();
 
@@ -68,20 +78,21 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //TODO: Implement on create and on restore
     /**Import the value in string resource into the map
      * Tedious work just to import the value in here
      *
      * */
     public void importValue()
     {
-        //add everything in here
+        //TODO: add everything in here
         Resources res = this.getResources();
         importValueInMap(res.getStringArray(R.array.art), "art");
         importValueInMap(res.getStringArray(R.array.general), "general");
     }
 
     /**
-     *
+     * Add all value in the general map
      * @param list list of quote that is used
      * @param name the key for map
      */
@@ -96,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    /**Init the first component*/
+    /**Init the component*/
     protected void initLayout() {
         setContentView(R.layout.activity_main);
         fortuneButton = (Button) findViewById(R.id.generate_button);
@@ -110,15 +121,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Quote newQuote;
+                /**button is clicked*/
                 if (v.getId() == R.id.generate_button) {
                     Log.d(TAG, "onClick() called by generateButton");
-                    quoteView.setText((getQuote().toString()));
+                    //quoteView.setText((getQuote().toString()));
                     if(topic.equals("general"))
                     {
                         newQuote = getQuote();
                     }
                     else
                     {
+                        //Toast.makeText(getApplicationContext(), "this is my Toast message!!! =)",
+                        //        Toast.LENGTH_LONG).show();
                         newQuote = topicQuote(topic);
                     }
                     quoteView.setText(newQuote.toString());
