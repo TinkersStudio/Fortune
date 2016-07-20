@@ -3,6 +3,7 @@
     <string name="default_quote">Keep Calm and Carry On</string>
     <string name="search_topic">Topic</string>
     <!--quote based on topic-->
+    <!--for information on the setup:https://github.com/TinkersStudio/Fortune/issues/7-->
     <string-array name="art">
         <item>A copy of the universe is not what is required of art; one of the damned
 things is ample. — Rebecca West</item>
@@ -52,7 +53,18 @@ rearranging their prejudices.
 		-- William James</item>
         <item>A pencil with no point needs no eraser.</item>
     </string-array>
-    <string-array name="ethnic"></string-array>
+    <string-array name="ethnic">
+        <item>Aberdeen was so small that when the family with the car went
+on vacation, the gas station and drive-in theatre had to close.</item>
+        <item>Also, the Scots are said to have invented golf.  Then they had
+to invent Scotch whiskey to take away the pain and frustration.</item>
+        <item>American by birth; Texan by the grace of God.</item>
+        <item>An Englishman never enjoys himself, except for a noble purpose.
+		-- A. P. Herbert</item>
+        <item>Anything anybody can say about America is true.
+        -- Emmett Grogan</item>
+        <item>Detroit is Cleveland without the glitter.</item>
+    </string-array>
     <string-array name="food"></string-array>
     <string-array name="geeky"></string-array>
     <string-array name="law"></string-array>
