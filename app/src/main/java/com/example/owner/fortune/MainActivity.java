@@ -240,4 +240,16 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
+    /* This is used to get the current string representation for the menu option*/
+    public String getMenuTitleChange() {
+        //TODO: Get the current menu title
+        return null;
+    }
+
+    //@Override
+    public boolean onPrepareOptionMenu(Menu menu) {
+        //MenuItem = menu.findItem(R.id.)
+        //return super.onPrepareOptionMenu(menu);
+        return true;
+    }
 }
