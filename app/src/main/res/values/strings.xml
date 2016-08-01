@@ -66,8 +66,36 @@ to invent Scotch whiskey to take away the pain and frustration.</item>
         -- Emmett Grogan</item>
         <item>Detroit is Cleveland without the glitter.</item>
     </string-array>
-    <string-array name="food"></string-array>
-    <string-array name="geeky"></string-array>
+    <string-array name="food">
+        <item>A gourmet who thinks of calories is like a tart that looks at her watch.
+		-- James Beard</item>
+        <item>A waist is a terrible thing to mind.-- Ziggy</item>
+        <item>Anything is good if it\'s made of chocolate.</item>
+        <item>Carob works on the principle that, when mixed with the right combination of
+fats and sugar, it can duplicate chocolate in color and texture.  Of course,
+the same can be said of dirt.</item>
+        <item>Cheese -- milk\'s leap toward immortality.
+		-- Clifton Fadiman, "Any Number Can Play\"</item>
+        <item>Did you hear that Captain Crunch, Sugar Bear, Tony the Tiger, and
+Snap, Crackle and Pop were all murdered recently...
+
+Police suspect the work of a cereal killer!</item>
+        <item>Dieters live life in the fasting lane.</item>
+    </string-array>
+    <string-array name="geeky">
+        <item>A fail-safe circuit will destroy others.
+		-- Klipstein</item>
+        <item>A failure will not appear until a unit has passed final inspection.</item>
+        <item>A mathematician is a device for turning coffee into theorems.
+		-- P. Erdos</item>
+        <item>A method of solution is perfect if we can forsee from the start,
+and even prove, that following that method we shall attain our aim.
+		-- Leibnitz</item>
+        <item>A physicist is an atom\'s way of knowing about atoms.
+		-- George Wald</item>
+        <item>A sine curve goes off to infinity, or at least the end of the blackboard.
+		-- Prof. Steiner</item>
+    </string-array>
     <string-array name="law"></string-array>
     <string-array name="literature"></string-array>
     <string-array name="love"></string-array>

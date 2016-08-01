@@ -383,4 +383,9 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onPrepareOptionsMenu(menu);
     }
+
+    public void facebookSharing() {
+        //Upload the quote to facebook
+        //Display a SnackBar after the upload is completed
+    }
 }
