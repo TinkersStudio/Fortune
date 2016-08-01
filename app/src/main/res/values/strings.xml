@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Fortune</string>
     <string name="default_quote">Keep Calm and Carry On</string>
-    <string name="search_topic">Topic</string>
+    <string name="search_topic">General</string>
+    <string name="share">Share</string>
     <!--quote based on topic-->
     <!--for information on the setup:https://github.com/TinkersStudio/Fortune/issues/7-->
     <string-array name="art">
