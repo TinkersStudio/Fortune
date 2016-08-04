@@ -17,7 +17,6 @@
             <item android:id="@+id/art" android:title="Art"/>
             <item android:id="@+id/cookie" android:title="Cookie"/>
             <item android:id="@+id/definitions" android:title="Definitions"/>
-            <item android:id="@+id/drugs" android:title="Drugs"/>
             <item android:id="@+id/education" android:title="Education"/>
             <item android:id="@+id/ethnic" android:title="Ethnic"/>
             <item android:id="@+id/food" android:title="Food"/>
@@ -29,9 +28,8 @@
             <item android:id="@+id/medicine" android:title="Medicine"/>
             <item android:id="@+id/geeky" android:title="Geeky"/>
             <item android:id="@+id/pet" android:title="Pet"/>
-            <item android:id="@+id/platitude" android:title="Platitude"/>
+            <item android:id="@+id/platitudes" android:title="Platitudes"/>
             <item android:id="@+id/politics" android:title="Politics"/>
-            <item android:id="@+id/riddle" android:title="Riddle"/>
             <item android:id="@+id/sports" android:title="Sport"/>
             <item android:id="@+id/wisdom" android:title="Wisdom"/>
             <item android:id="@+id/work" android:title="Work"/>

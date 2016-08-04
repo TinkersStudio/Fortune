@@ -27,6 +27,8 @@ import android.widget.Toast;
 
 import java.io.Serializable;
 import java.util.*;
+import com.facebook.FacebookSdk;
+import com.facebook.appevents.AppEventsLogger;
 
 public class MainActivity extends AppCompatActivity {
     /**Contain all the Quote*/
@@ -87,6 +89,10 @@ public class MainActivity extends AppCompatActivity {
             quoteList.addAll(myMap.get(key));
             selectedList.addAll(myMap.get(key));
         }
+
+        // Initialize the SDK before executing any other operations,
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        AppEventsLogger.activateApp(this);
     }
 
     /**
@@ -134,10 +140,28 @@ public class MainActivity extends AppCompatActivity {
      */
     public void importValue()
     {
-        //TODO: add everything in here
         Resources res = this.getResources();
+
         importValueInMap(res.getStringArray(R.array.art), "art");
         importValueInMap(res.getStringArray(R.array.general), "general");
+        importValueInMap(res.getStringArray(R.array.definitions), "definitions");
+        importValueInMap(res.getStringArray(R.array.medicine), "medicine");
+        importValueInMap(res.getStringArray(R.array.education), "education");
+        importValueInMap(res.getStringArray(R.array.ethnic), "ethnic");
+        importValueInMap(res.getStringArray(R.array.food), "food");
+        importValueInMap(res.getStringArray(R.array.humorist), "humorist");
+        importValueInMap(res.getStringArray(R.array.kids), "kids");
+        importValueInMap(res.getStringArray(R.array.law), "law");
+        importValueInMap(res.getStringArray(R.array.literature), "literature");
+        importValueInMap(res.getStringArray(R.array.love), "love");
+        importValueInMap(res.getStringArray(R.array.medicine), "medicine");
+        importValueInMap(res.getStringArray(R.array.geeky), "geeky");
+        importValueInMap(res.getStringArray(R.array.pet), "pet");
+        importValueInMap(res.getStringArray(R.array.platitudes), "platitudes");
+        importValueInMap(res.getStringArray(R.array.politics), "politics");
+        importValueInMap(res.getStringArray(R.array.sports), "sports");
+        importValueInMap(res.getStringArray(R.array.wisdom), "wisdom");
+        importValueInMap(res.getStringArray(R.array.work), "work");
     }
 
     /**
@@ -268,14 +292,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.pet:
                 topic = "pet";
                 break;
-            case R.id.platitude:
-                topic = "platitude";
+            case R.id.platitudes:
+                topic = "platitudes";
                 break;
             case R.id.politics:
                 topic = "politics";
-                break;
-            case R.id.riddle:
-                topic = "riddle";
                 break;
             case R.id.sports:
                 topic = "sports";
@@ -343,14 +364,11 @@ public class MainActivity extends AppCompatActivity {
             case "pet":
                 curMenuItem = "Pet";
                 break;
-            case "platitude":
-                curMenuItem = "Platitude";
+            case "platitudes":
+                curMenuItem = "Platitudes";
                 break;
             case "politics":
                 curMenuItem = "Politics";
-                break;
-            case "riddle":
-                curMenuItem = "Riddle";
                 break;
             case "sports":
                 curMenuItem = "Sports";

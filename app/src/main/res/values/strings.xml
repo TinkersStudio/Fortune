@@ -1,4 +1,5 @@
 <resources>
+    <string name="facebook_app_id">265708020488594</string>
     <string name="app_name">Fortune</string>
     <string name="default_quote">Keep Calm and Carry On</string>
     <string name="search_topic">General</string>
@@ -96,17 +97,162 @@ and even prove, that following that method we shall attain our aim.
         <item>A sine curve goes off to infinity, or at least the end of the blackboard.
 		-- Prof. Steiner</item>
     </string-array>
-    <string-array name="law"></string-array>
-    <string-array name="literature"></string-array>
-    <string-array name="love"></string-array>
-    <string-array name="kids"></string-array>
-    <string-array name="medicine"></string-array>
-    <string-array name="pet"></string-array>
-    <string-array name="platitude"></string-array>
-    <string-array name="politics"></string-array>
-    <string-array name="riddle"></string-array>
-    <string-array name="sports"></string-array>
-    <string-array name="wisdom"></string-array>
-    <string-array name="work"></string-array>
+    <string-array name="law">
+        <item>A countryman between two lawyers is like a fish between two cats.
+		-- Ben Franklin</item>
+        <item>A friend of mine won\'t get a divorce, because he hates lawyers more than he
+hates his wife.</item>
+        <item>A jury consists of twelve persons chosen to decide who has the better lawyer.
+		-- Robert Frost</item>
+        <item>According to Kentucky state law, every person must take a bath at least
+once a year.</item>
+        <item>And then there was the lawyer that stepped in cow manure and thought
+he was melting...</item>
+        <item>Anti-trust laws should be approached with exactly that attitude.</item>
+        <item>Atlanta makes it against the law to tie a giraffe to a telephone pole
+or street lamp.</item>
+    </string-array>
+    <string-array name="literature">
+        <item>A horse!  A horse!  My kingdom for a horse!
+		-- Wm. Shakespeare, "Richard III"</item>
+        <item>"... all the modern inconveniences ..."
+		-- Mark Twain</item>
+        <item>All things that are, are with more spirit chased than enjoyed.
+		-- Shakespeare, "Merchant of Venice"</item>
+        <item>Always the dullness of the fool is the whetstone of the wits.
+		-- William Shakespeare, "As You Like It"</item>
+        <item>An honest tale speeds best being plainly told.
+		-- William Shakespeare, "Henry VI"</item>
+        <item>As flies to wanton boys are we to the gods; they kill us for their sport.
+		-- Shakespeare, "King Lear"</item>
+    </string-array>
+    <string-array name="love">
+        <item>A career is great, but you can\'t run your fingers through its hair.</item>
+        <item>Absence in love is like water upon fire; a little quickens, but much
+extinguishes it.
+		-- Hannah More</item>
+        <item>All the passions make us commit faults; love makes us commit the most
+ridiculous ones.
+		-- La Rochefoucauld</item>
+        <item>A kiss is a course of procedure, cunningly devised, for the mutual
+stoppage of speech at a moment when words are superfluous.</item>
+        <item>Always there remain portions of our heart into which no one is able to enter,
+invite them as we may.</item>
+        <item>Don\'t despair; your ideal lover is waiting for you around the corner.</item>
+        <item>Falling in love is a lot like dying.  You never get to do it enough to
+become good at it.</item>
+        <item>Give me chastity and continence, but not just now.
+		-- St. Augustine</item>
+        <item>Hearts will never be practical until they can be made unbreakable.
+		-- The Wizard of Oz</item>
+        <item>His heart was yours from the first moment that you met.</item>
+        <item>I don\'t want people to love me.  It makes for obligations.
+		-- Jean Anouilh</item>
+        <item>I love you, not only for what you are, but for what I am when I am with you.
+		-- Roy Croft</item>
+    </string-array>
+    <string-array name="kids">
+        <item>A baby is an alimentary canal with a loud voice at one end and no
+responsibility at the other.</item>
+        <item>A kid\'ll eat the middle of an Oreo, eventually.</item>
+        <item>Adopted kids are such a pain -- you have to teach them how to look like you ...
+		-- Gilda Radner</item>
+        <item>Any father who thinks he\'s all important should remind himself that this
+country honors fathers only one day a year while pickles get a whole week.</item>
+        <item>Are you a parent?  Do you sometimes find yourself unsure as to what to
+say in those awkward situations?  Worry no more...</item>
+        <item>Because we don\'t think about future generations, they will never forget us.
+		-- Henrik Tikkanen</item>
+    </string-array>
+    <string-array name="medicine">
+        <item>Anyone who goes to a psychiatrist ought to have his head examined.
+		-- Samuel Goldwyn</item>
+        <item>Death has been proven to be 99% fatal in laboratory rats.</item>
+        <item>Dental health is next to mental health.</item>
+        <item>God is dead and I don\'t feel all too well either....
+		-- Ralph Moonen</item>
+        <item>"Good health" is merely the slowest rate at which one can die.</item>
+        <item>Happiness is good health and a bad memory.
+		-- Ingrid Bergman</item>
+        <item>Health is merely the slowest possible rate at which one can die.</item>
+    </string-array>
+    <string-array name="pet">
+        <item>Anyone who considers protocol unimportant has never dealt with a cat.
+		-- R. Heinlein</item>
+        <item>Breeding rabbits is a hare raising experience.</item>
+        <item>Cats are intended to teach us that not everything in nature has a function.
+		-- Garrison Keillor</item>
+        <item>Cats are smarter than dogs.  You can\'t make eight cats pull a sled through
+the snow.</item>
+        <item>Cats, no less liquid than their shadows, offer no angles to the wind.</item>
+        <item>Chihuahuas drive me crazy.  I can\'t stand anything that shivers when it\'s warm.</item>
+        <item>Does the name Pavlov ring a bell?</item>
+    </string-array>
+    <string-array name="platitudes">
+        <item>A bird in the hand is worth two in the bush.
+		-- Cervantes</item>
+        <item>A bird in the bush usually has a friend in there with him.</item>
+        <item>A bird in the hand makes it awfully hard to blow your nose.</item>
+        <item>A chicken is an egg\'s way of producing more eggs.</item>
+        <item>A chronic disposition to inquiry deprives domestic felines of vital qualities.</item>
+        <item>A closed mouth gathers no foot.</item>
+        <item>A farmer is a man outstanding in his field.</item>
+    </string-array>
+    <string-array name="politics">
+        <item>A Difficulty for Every Solution.
+		-- Motto of the Federal Civil Service</item>
+        <item>A diplomat is a man who can convince his wife she\'d look stout in a fur coat.</item>
+        <item>A free society is one where it is safe to be unpopular.
+		-- Adlai Stevenson</item>
+        <item>A government that is big enough to give you all you want is big enough
+to take it all away.
+		-- Barry Goldwater</item>
+        <item>A great empire, like a great cake, is most easily diminished at the edges.
+		-- B. Franklin</item>
+        <item>A great nation is any mob of people which produces at least one honest
+man a century.</item>
+        <item>A national debt, if it is not excessive, will be to us a national blessing.
+		-- Alexander Hamilton</item>
+    </string-array>
+    <string-array name="sports">
+        <item>Ever feel like life was a game and you had the wrong instruction book?</item>
+        <item>Every creature has within him the wild, uncontrollable urge to punt.
+		-- Snoopy</item>
+        <item>Football is a game designed to keep coalminers off the streets.
+		-- Jimmy Breslin</item>
+        <item>Horse sense is the thing a horse has which keeps it from betting on people.
+		-- W. C. Fields</item>
+        <item>How can you think and hit at the same time?
+		-- Yogi Berra</item>
+    </string-array>
+    <string-array name="wisdom">
+        <item>A clash of doctrine is not a disaster -- it is an opportunity.</item>
+        <item>A lifetime isn\'t nearly long enough to figure out what it\'s all about.</item>
+        <item>A priest advised Voltaire on his death bed to renounce the devil.
+Replied Voltaire, "This is no time to make new enemies."</item>
+        <item>A thing is not necessarily true because a man dies for it.
+		-- Oscar Wilde, "The Portrait of Mr. W. H."</item>
+        <item>All hope abandon, ye who enter here!
+		-- Dante Alighieri</item>
+        <item>An idea is not responsible for the people who believe in it.</item>
+        <item>Beauty is one of the rare things which does not lead to doubt of God.
+		-- Jean Anouilh</item>
+    </string-array>
+    <string-array name="work">
+        <item>A committee is a group that keeps the minutes and loses hours.
+		-- Milton Berle</item>
+        <item>A company is known by the men it keeps.</item>
+        <item>A commune is where people join together to share their lack of wealth.
+		-- R. Stallman</item>
+        <item>A continuing flow of paper is sufficient to continue the flow of paper.
+		-- Dyer</item>
+        <item>A man is known by the company he organizes.
+		-- Ambrose Bierce</item>
+        <item>A meeting is an event at which the minutes are kept and the hours are lost.</item>
+        <item>A motion to adjourn is always in order.</item>
+        <item>A verbal contract isn\'t worth the paper it\'s written on.
+		-- Samuel Goldwyn</item>
+    </string-array>
+    <string-array name="humorist"></string-array>
 
 </resources>
